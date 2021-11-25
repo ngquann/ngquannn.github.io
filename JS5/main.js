@@ -69,4 +69,4 @@ function chuyendoi(string) {
     return string1.toLowerCase()
 }
 
-console.log(chuyendoi('Xin Chào Các BẠN'))
+console.log(chuyendoi('MAriA OzAWA XiNH ĐẸP'))
