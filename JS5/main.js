@@ -37,11 +37,11 @@ console.log(subString('xinchaotatcacacsbansafsfdgregsstrh'))
 // "hello world" => false.
 function doixung(string) {
     let string1 = ''
-    let stringNoSpace = string.replace(/\s/g, '').toLowerCase()
-    for (let i = 0; i < stringNoSpace.length; i++) {
-        string1 = stringNoSpace[i] + string1
+    let string2 = string.replace(/\s/g, '').toLowerCase()
+    for (let i = 0; i < string2.length; i++) {
+        string1 = string2[i] + string1
     }
-    if (stringNoSpace === string1) {
+    if (string2 === string1) {
         return true
     }
     return false
